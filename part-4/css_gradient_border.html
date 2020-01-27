@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gradient Border</title>
+	<style>
+		.gradient{
+			   border: 10px solid;
+			  border-image: linear-gradient(orange,red) 10;
+			  -webkit-border-image: linear-gradient(orange,red) 10;
+			  -o-border-image: linear-gradient(orange,red) 10;
+			  padding: 10px;
+		}
+		p.outline{
+			  outline: 3px solid red;
+		}
+	</style>
+</head>
+<body>
+      <div class="gradient">Gradient Border</div>
+      <p class="outline">Outline border</p>
+</body>
+</html>

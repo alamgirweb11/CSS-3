@@ -1,0 +1,19 @@
+body{
+	   background-image: url("../images/love.png");
+	   background-position: center;
+	   padding: 200px;
+	   background-repeat: no-repeat;
+	   background-origin: padding-box;
+	   /*background-size: 200px 200px;*/
+	  /*  height: 500px;
+	  width: 700px; */
+}
+.back_img{
+	    /* height: 2000px;
+	    width: 700px;
+	    margin-left: 11em;
+	    	   background-image: url(../images/love.png);
+	    	   background-repeat: repeat;
+	    	   background-attachment: fixed;
+	     */
+}

@@ -1,0 +1,13 @@
+.container nav{
+	background: 
+}
+.container ul{
+	 float: left;
+	display: block;
+}
+.container ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FF0000;    
+}

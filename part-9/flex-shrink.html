@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex grow</title>
+	<style>
+		.container{
+			     background-color:;
+			     display: flex;
+			     width: 300px;
+		}
+		.container>div{
+			  -webkit-flex-grow: 1; /* Safari 6.1+ */
+			  -webkit-flex-shrink: 1; /* Safari 6.1+ */
+			  -webkit-flex-basis: 100px; /* Safari 6.1+ */
+			  flex-grow: 1;
+			  flex-shrink: 1;
+			  flex-basis: 100px;
+			      height: 100px;
+		}
+	.container>div:nth-of-type(1) {flex-shrink: 1;}
+	.container>div:nth-of-type(2) {flex-shrink: 2;}
+	.container>div:nth-of-type(3) {flex-shrink: 1;}
+	.container>div:nth-of-type(4) {flex-shrink: 3;}
+	.container>div:nth-of-type(5) {flex-shrink: 2;}
+       
+	</style>
+</head>
+<body>
+	<div class="container">
+  <div style="background-color:coral;">50px</div>
+  <div style="background-color:lightblue;">100px</div>
+  <div style="background-color:khaki;">50px</div>
+  <div style="background-color:pink;">50px</div>
+  <div style="background-color:lightgrey;">50px</div>
+</div>
+</body>
+</html>

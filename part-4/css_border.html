@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS BORDER</title>
+	<style>
+		p.dotted{
+			border: 3px dotted #FC2323;
+		}
+		p.double{
+			border: 3px double #FC2323;
+		}
+		p.inset{
+			border: 3px inset #FC2323;
+		}
+		p.outset{
+			border: 3px outset #FC2323;
+		}
+		p.groove{
+			border: 3px groove #FC2323;
+		}
+		p.mix{
+			border-style: 1px dotted dashed solid double #FC2323;
+		}
+		p.radius{
+			  border: 3px solid green;
+			  border-radius: 10px;
+		}
+		p.radius1{
+			  border: 3px solid green;
+			  border-bottom-left-radius: 10px;
+		}
+		.border_img{
+			   /* height: 500px;
+			    width: 500px;*/
+			    background-color: ;
+			    border: 50px solid transparent;
+			    border-image: url("../images/love.png") 5% round;
+		}
+	</style>
+</head>
+<body>
+	   <p class="dotted">Dotted border</p>
+	   <p class="double">Dotted border</p>
+	   <p class="inset">Dotted border</p>
+	   <p class="outset">Dotted border</p>
+	   <p class="groove">Dotted border</p>
+	   <p class="mix">Dotted border</p>
+	   <p class="radius">Border Radius</p>
+	   <p class="radius1">Border Radius</p>
+	   <div class="border_img">Border images</div>
+</body>
+</html>

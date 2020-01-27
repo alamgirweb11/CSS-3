@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex grow</title>
+	<style>
+		.container{
+			     background-color:;
+			     display: flex;
+			     width: 700px;
+		}
+		.container>div{
+			       height: 100px;
+			       width: 100px;
+		}
+	.container>div:nth-of-type(1) {flex-grow: 0;}
+	.container>div:nth-of-type(2) {flex-grow: 1;}
+	.container>div:nth-of-type(3) {flex-grow: 0;}
+	.container>div:nth-of-type(4) {flex-grow: 1;}
+	.container>div:nth-of-type(5) {flex-grow: 0;}
+       
+	</style>
+</head>
+<body>
+	<div class="container">
+  <div style="background-color:coral;">50px</div>
+  <div style="background-color:lightblue;">100px</div>
+  <div style="background-color:khaki;">50px</div>
+  <div style="background-color:pink;">50px</div>
+  <div style="background-color:lightgrey;">50px</div>
+</div>
+</body>
+</html>
