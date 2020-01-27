@@ -1,0 +1,189 @@
+/*
+.container{
+	      background-color: #6F5E5E;
+	      display: flex;
+}
+.container>div{
+	       background-color: #ECA700;
+	       font-size: 30px;
+	       padding: 10px;
+	       margin: 10px;
+}
+*/
+/*
+.container{
+	      background-color: #6F5E5E;
+	      display: flex;
+	      flex-direction: column;
+}
+.container>div{
+	       background-color: #ECA700;
+	       font-size: 30px;
+	       padding: 10px;
+	       margin: 10px;
+	       width: 75px;
+	       line-height: 50px;
+}
+*/
+/*
+.container{
+	      background-color: #6F5E5E;
+	      display: inline-flex;
+	      margin-bottom: 10px;
+}
+.container>div{
+	      flex: 1;
+	      background-color: tomato;
+	      margin: 10px;
+          min-width: 50px;
+          min-height: 50px;
+          text-align: center;	
+          line-height: 75px;
+}
+*/
+/*
+.container{
+	      background-color: #6F5E5E;
+	      display: flex;
+	      flex-wrap: wrap;
+	      margin-bottom: 10px;
+}
+.container>div{
+	      background-color: tomato;
+	      margin: 10px;
+           width: 50px;
+          text-align: center;	
+          line-height: 75px;
+}
+*/
+/*
+.container{
+	     display: flex;
+	     width: 300px;
+	     height: 100px;
+	     display: -webkit-flex; for safari 
+}
+.container>div{
+	    flex-basis: 50px;    
+        -webkit-flex-basis: 50px; for safari 
+} 
+.container>div:nth-of-type(2){
+	        flex-basis: 100px;
+	        -webkit-flex-basis: 100px; for safari
+}
+*/
+/*
+.container{
+	     display: flex;
+	     width: 300px;
+	     height: 100px;
+	     display: -webkit-flex; for safari 
+}
+.container>div:nth-of-type(1){
+	         flex-grow: 1;
+}
+.container>div:nth-of-type(2){
+	         flex-grow: 3;
+}
+.container>div:nth-of-type(3){
+	         flex-grow: 1;
+}
+.container>div:nth-of-type(4){
+	         flex-grow: 1;
+}
+.container>div:nth-of-type(5){
+	         flex-grow: 2;
+}
+*/
+/*
+.container{
+	     display: flex;
+	     width: 300px;
+	     height: 100px;
+	     display: -webkit-flex; for safari 
+}
+.container>div{
+	    flex-grow: 1;
+	    flex-shrink: 1;
+	    flex-basis: 100px;
+}
+.container>div:nth-of-type(2){
+	      flex-shrink: 3;
+}
+*/
+/*
+.container{
+	     display: flex;
+	      justify-content: space-around;
+	      background-color: #000;
+}
+.container>div{
+	          height: 100px;
+              width: 200px;
+              font-size: 30px;
+              margin: 10px;
+              line-height: 75px;
+              text-align: center;
+}
+*/
+/*
+.container{
+	     display: flex;
+	      align-items: baseline;
+	      background-color: #000;
+	      height: 200px;
+}
+.container>div{
+	          height: 100px;
+              width: 200px;
+              font-size: 30px;
+              margin: 10px;
+              line-height: 75px;
+              text-align: center;
+}
+*/
+/*
+.container{
+	     background-color: #DADADA;
+	     height: 400px;
+	     flex-wrap: wrap;
+	     display: flex;
+	     align-content: center;
+}
+.container>div{
+	        background-color: tomato;
+	        text-align: center;
+	        font-size: 30px;
+	        line-height: 75px;
+	        margin: 10px;
+	        width: 150px;	
+}
+*/
+.container{
+	     background-color: #DADADA;
+	     height: 400px;
+	     display: flex;
+}
+.container>div{
+	        background-color: tomato;
+	        text-align: center;
+	        font-size: 30px;
+	        line-height: 75px;
+	        margin: 10px;
+	        width: 150px;	
+}
+.container>div:nth-of-type(1){
+	  align-self: flex-start;     
+}
+.container>div:nth-of-type(2){
+	  align-self: flex-end;     
+}
+.container>div:nth-of-type(3){
+	  align-self: center;     
+}
+.container>div:nth-of-type(4){
+	  align-self: flex-start;     
+}
+.container>div:nth-of-type(5){
+	  align-self: flex-end;     
+}

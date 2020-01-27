@@ -1,0 +1,14 @@
+Discuss about: 
+		1.Drescription about css like what is css and it's work.
+		2.what is selector.
+		3.What is syntax?
+		4.Web page css:-
+				1.inline css
+				2.inpage css
+				3.internal css
+				4.external css
+		5.Css @imports
+		6.Css Unite:-
+				1.relative and 
+				2.absolate 
+All this topic only for discuss or make your base strong it's not practical work.

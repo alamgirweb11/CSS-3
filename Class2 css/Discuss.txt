@@ -1,0 +1,17 @@
+Discuss about:-
+	Css Color:-
+		1.Hexa decimal color
+		2.RGB(Red, Green, Blue)
+		3.RGBA(Red, Green, Blue, Alpha)
+		4.HSL(Hue, Situration, Brightness)
+		5.HSLA(Hue, Situration, Brightness, Alpha)
+
+	Css Backgroud property:-
+			1.Background
+			2.Background-color
+			3.Background-repeat
+			4.Background-position
+			5.Background-size
+			6.Background-attachment
+			7.Background-clip
+			8.Background-origin

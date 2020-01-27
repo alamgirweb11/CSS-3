@@ -1,0 +1,19 @@
+.form {
+	width: 225px;
+	background-color: #30CAF0;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.form input[type="submit"] {
+	background-color: #76AC4D;
+	border: 1px solid #847a7a;
+	width: 184px;
+	padding: 3px;
+	font-size: 14px;
+	color: #1c1818;
+	margin-left: 10px;
+	transition: 1s;
+}
+.form:hover input[type="submit"]{
+	              background-color: #C3BBBB;
+}
