@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Pseudo Classes</title>
+	<style>
+		 /* default anchor tag style */
+		a{
+			   text-decoration: none;
+			   color: #11D1FA;
+			   font-size: 16px;
+		}
+		/* this is active pseudo class */
+		.active:active{
+                color: red;
+		}
+		/* this is hover pseudo class */
+		.hover:hover{ 
+			            background: yellow;
+                        color: red;
+		       }
+         /* this is visited pseudo class */
+		#visited:visited{ 
+                        color: #FE7E0C;
+		       }
+		   /* this is link pseudo class */
+		 .link:link{   
+		 	           background: #115EEB;
+                        color: #fff;
+		       }
+
+	</style>
+</head>
+<body>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" class="active">Here use active pseudo class</a></p>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" class="hover">Here use hover pseudo classe</a></p>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" id="visited">Here use visited pseudo classe</a></p>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" class="link">Here use link pseudo classe</a></p>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" id="">Here use pseudo classe</a></p>
+	  <!-- This is active pseudo class -->
+	  <p>Click the anchor tag <a href="#" id="">Here use pseudo classe</a></p>
+</body>
+</html>
